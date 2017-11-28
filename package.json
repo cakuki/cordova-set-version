@@ -1,0 +1,25 @@
+{
+  "name": "@ckk/cordova-set-version",
+  "version": "1.0.0",
+  "description": "Sets version in Cordova's config.xml to package.json version",
+  "main": "index.js",
+  "bin": {
+    "cordova-set-version": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cakuki/cordova-set-version.git"
+  },
+  "author": "Can Kutlu Kinay <me@ckk.im> (http://ckk.im)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cakuki/cordova-set-version/issues"
+  },
+  "homepage": "https://github.com/cakuki/cordova-set-version#readme",
+  "dependencies": {
+    "cordova-common": "^2.2.0"
+  }
+}
